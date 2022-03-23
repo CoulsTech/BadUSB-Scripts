@@ -1,0 +1,9 @@
+LOCALE US
+DELAY 500
+GUI r
+STRING cmd
+ENTER
+DELAY 250
+STRING powercfg.exe /hibernate off
+ENTER
+ALT F4
