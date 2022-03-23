@@ -1,0 +1,16 @@
+LOCALE US
+DELAY 500
+GUI r
+STRING cmd
+ENTER
+DELAY 250
+STRING powershell -Command "Start-Process cmd -Verb RunAs"
+ENTER
+DELAY 350
+LEFT
+ENTER
+DELAY 250
+STRING powercfg.exe /hibernate on
+ENTER
+ALT F4
+ALT F4
