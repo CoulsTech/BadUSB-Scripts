@@ -4,6 +4,13 @@ GUI r
 STRING cmd
 ENTER
 DELAY 250
+STRING powershell -Command "Start-Process cmd -Verb RunAs"
+ENTER
+DELAY 350
+LEFT
+ENTER
+DELAY 250
 STRING powercfg.exe /hibernate off
 ENTER
+ALT F4
 ALT F4
